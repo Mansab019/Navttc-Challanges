@@ -1,0 +1,9 @@
+# Task 7 - Convert Celsius to Fahrenheit
+
+celsius = 37.5
+
+# Uncomment to take input from user
+# celsius = float(input('Enter temperature in Celsius: '))
+
+fahrenheit = (celsius * 1.8) + 32
+print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' % (celsius, fahrenheit))
